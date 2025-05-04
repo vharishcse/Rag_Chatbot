@@ -39,7 +39,7 @@ Rag-project/
 1. **Clone this repo & enter directory**
 ```bash
 git clone https://github.com/vharishcse/Rag_Chatbot.git
-cd your-project
+cd Rag-project
 ```
 
 2. **Create virtual environment**
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 4. **Set up `.env` file**
 ```env
-GOOGLE_API_KEY=your_google_api_key_here
+GOOGLE_API_KEY=google_api_key_here
 ```
 
 5. **Prepare vector database**
@@ -75,7 +75,7 @@ Visit [http://127.0.0.1:7860](http://127.0.0.1:7860) to start chatting.
 ## 📄 Example Questions
 
 - Why is my trading balance not updated even after adding funds successfully?
-- How do I close my account?
+- Can I place an order when markets are closed (AMO Order)?
 - What are brokerage charges?
 
 ---
@@ -92,8 +92,7 @@ Visit [http://127.0.0.1:7860](http://127.0.0.1:7860) to start chatting.
 ## ⚠️ Notes
 
 - The chatbot answers **only** based on the uploaded FAQ CSV.
-- Questions outside of this context return `"I don't know"` to avoid hallucinations.
-* Make sure `.env`, `faiss_db/`, `venv/`, and `.gradio/` are listed in `.gitignore` to avoid pushing them to GitHub.
+- Questions outside of this context the chatbot returns `"I don't know"` to avoid hallucinations.
 
 ---
 
@@ -102,8 +101,4 @@ Visit [http://127.0.0.1:7860](http://127.0.0.1:7860) to start chatting.
 **Harish Yadav** 🚀  
 🔗 [LinkedIn](https://www.linkedin.com/in/v-harish-yadav-b2bb52241)  
 
----
 
-## 📄 License
-
-MIT License (or update if needed).
