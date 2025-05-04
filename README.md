@@ -19,7 +19,7 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built for AngelOne custom
 ## 🗂️ Project Structure
 
 ```
-your-project/
+Rag-project/
 ├── .env                        # API key stored here
 ├── .gitignore                 # Ignore sensitive and generated files
 ├── angelone_faqs.csv          # CSV file containing support Q&A
