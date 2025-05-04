@@ -38,7 +38,7 @@ Rag-project/
 
 1. **Clone this repo & enter directory**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vharishcse/Rag_Chatbot.git
 cd your-project
 ```
 
