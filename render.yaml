@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rag-chatbot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python chat_ui.py
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
