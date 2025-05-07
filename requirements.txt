@@ -6,3 +6,4 @@ langchain-community
 langchain-core
 langchain-google-genai
 faiss-cpu==1.7.4
+numpy<2.0.0
