@@ -87,4 +87,5 @@ with gr.Blocks(title="📘 AngelOne Support Chatbot") as demo:
     send_btn.click(fn=chatbot, inputs=[user_input, state], outputs=[user_input, chatbot_display])
     user_input.submit(fn=chatbot, inputs=[user_input, state], outputs=[user_input, chatbot_display])
 
-demo.launch(share=True)
+port = int(os.environ.get("PORT", 7860))
+demo.launch(server_name="0.0.0.0", server_port=port)
